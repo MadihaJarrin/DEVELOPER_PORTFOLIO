@@ -75,12 +75,12 @@ h2{
 }
 #web-dev-ex{
     border-left: 7px solid;
-    border-image: linear-gradient(red blue);
+    border-image: linear-gradient(red, blue);
     border-image-slice:1 ;
 }
 #full-stack{
     border-left: 7px solid;
-    border-image: linear-gradient(rgb(189, 27, 230) blue);
+    border-image: linear-gradient(rgb(189, 27, 230), blue);
     border-image-slice:1 ;
 }
 footer p{
