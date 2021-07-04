@@ -15,8 +15,10 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-.right-banner{
-    background-image: url(images/dreambj);
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .half-width{
     width: 50% ;
