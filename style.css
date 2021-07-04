@@ -5,11 +5,15 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
-section{
+.flex-container{
     display: flex;
+    margin-bottom: 5%;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -26,7 +30,10 @@ section{
 }
 .half-width-2{
     width: 50%;
-    margin-left: 5%;
+    padding-left: 5%;
+}
+.half-width-2 p{
+    width: 70%;
 }
 .half-width img{
     width: 80%
@@ -51,5 +58,35 @@ section{
     font-weight:700 ;
 
 }
+.last-part{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left ;
+}
+.last-one{
+    width: 50% ;
+    padding-left: 5%;
+    box-shadow: 10px 10px 30px gray;
+    margin-left:5%;
+    margin-right: 5%; 
+    padding-left: 20px;
+    border-radius: 10px; 
+    
+}
+#web-dev-ex{
+    border-left: 7px solid;
+    border-image: linear-gradient(red blue);
+    border-image-slice:1 ;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(189, 27, 230) blue);
+    border-image-slice:1 ;
+}
+footer p{
+    text-align: center;
+}
+
+
 
 
